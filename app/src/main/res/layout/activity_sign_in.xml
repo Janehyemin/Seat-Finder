@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_for_signin">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.lunashiel.seat_finder.SignInActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/signin_bar" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginTop="30dp"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/signin_1_who" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="295dp"
+            android:layout_height="36dp"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            android:layout_marginLeft="55dp"
+            android:textColor="@color/colorPrimaryDark"
+            >
+
+            <RadioButton
+                android:id="@+id/RadioButton_cafeuser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/colorBrown"
+                android:text="CafeUser"
+                android:textColor="@color/colorBrown" />
+
+            <RadioButton
+                android:id="@+id/RadioButton_worker"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:buttonTint="@color/colorBrown"
+                android:text="Worker"
+                android:textColor="@color/colorBrown" />
+
+            <RadioButton
+                android:id="@+id/RadioButton_cafeowner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:buttonTint="@color/colorBrown"
+                android:text="CafeOwner"
+                android:textColor="@color/colorBrown" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginStart="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/signin_2_name" />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="324dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/input_bar"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:selectAllOnFocus="false"
+            android:singleLine="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@drawable/signin_3_phonenum" />
+
+        <EditText
+            android:id="@+id/editText_phonenum"
+            android:layout_width="324dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/input_bar"
+            android:ems="10"
+            android:inputType="phone"
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@drawable/signin_4_password" />
+
+        <EditText
+            android:id="@+id/editText_password"
+            android:layout_width="328dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/input_bar"
+            android:ems="10"
+            android:inputType="textPassword"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@drawable/signin_5_doublepassword" />
+
+        <EditText
+            android:id="@+id/editText_password_double"
+            android:layout_width="329dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/input_bar"
+            android:ems="10"
+            android:inputType="textPassword"
+            />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            app:srcCompat="@drawable/signin_6_cafeadress" />
+
+        <EditText
+            android:id="@+id/editText_worker_cafeaddress"
+            android:layout_width="329dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="40dp"
+            android:background="@drawable/input_bar"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="234dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#00000000"
+            android:onClick="moveToSearchActivity"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/signin_button" />
+
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/status_back"
+    tools:context="com.example.lunashiel.seat_finder.CafeStatusActivity2">
+
+    <ScrollView
+        android:id="@+id/container_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ffffff"
+        android:orientation="vertical">
+
+
+        <GridLayout
+            android:layout_width="395dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="92dp"
+            android:columnCount="4"
+            android:rowCount="8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/img_order_desk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="1"
+                android:layout_gravity="fill"
+                android:layout_rowSpan="2"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/order_desk" />
+
+
+            <ImageButton
+                android:id="@+id/table1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+            <ImageButton
+                android:id="@+id/table2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+            <ImageButton
+                android:id="@+id/table3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+            <ImageButton
+                android:id="@+id/table4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+            <ImageButton
+                android:id="@+id/table5_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+
+            <ImageButton
+                android:id="@+id/table6_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+
+            <ImageButton
+                android:id="@+id/table7_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+
+            <ImageButton
+                android:id="@+id/table8_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+            <ImageButton
+                android:id="@+id/table9_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_vacant" />
+
+            <ImageButton
+                android:id="@+id/table10_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_vacant" />
+
+            <ImageButton
+                android:id="@+id/table11_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table12_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table13_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table14_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+            <ImageButton
+                android:id="@+id/table15_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table16_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table17_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+
+            <ImageButton
+                android:id="@+id/table18_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_occupied" />
+
+            <ImageButton
+                android:id="@+id/table19_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table20_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_vacant" />
+
+            <ImageButton
+                android:id="@+id/table21_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table22_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_4_vacant" />
+
+            <ImageButton
+                android:id="@+id/table23_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_vacant" />
+
+            <ImageButton
+                android:id="@+id/table24_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+            <ImageButton
+                android:id="@+id/table25_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00000000"
+                android:src="@drawable/table_2_occupied" />
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/StoreName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="카페이름"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/RemainingNumTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4/12"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.09" />
+
+
+</android.support.constraint.ConstraintLayout>

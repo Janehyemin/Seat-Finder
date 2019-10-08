@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "578372156190",
+    "firebase_url": "https://seatfinder-50d2c.firebaseio.com",
+    "project_id": "seatfinder-50d2c",
+    "storage_bucket": "seatfinder-50d2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578372156190:android:869543ff36626d79",
+        "android_client_info": {
+          "package_name": "com.example.lunashiel.seat_finder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578372156190-8u7tosolp6cm2rni7t8sk6k4hgmmsk2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lunashiel.seat_finder",
+            "certificate_hash": "628d0edad004fb43e742e3754c8aa69833c64458"
+          }
+        },
+        {
+          "client_id": "578372156190-23ptunoqf1ab3bc03n5dnh84q3qijjlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmt67IoBBRyy5QELIQo8XfPxFuLMFEAeU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578372156190-23ptunoqf1ab3bc03n5dnh84q3qijjlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

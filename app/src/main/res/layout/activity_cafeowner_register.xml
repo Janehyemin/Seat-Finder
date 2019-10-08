@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="0dp"
+    android:orientation="vertical"
+    app:backgroundTint="@color/colorButton">
+
+    <ImageView
+        android:id="@+id/imageView0"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/signin_bar" />
+
+    <ImageView
+        android:id="@+id/imageView1_0"
+        android:layout_width="300dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cafeowner_greeting" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cafeowner_name_1" />
+
+    <EditText
+        android:id="@+id/editText_owner_cafename"
+        android:layout_width="324dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/input_bar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="116dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cafeowner_cafeadd_2" />
+
+    <EditText
+        android:id="@+id/editText_owner_cafeaddress"
+        android:layout_width="324dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/input_bar"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="116dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cafeowner_ownername_3" />
+
+    <EditText
+        android:id="@+id/editText_owner_name"
+        android:layout_width="324dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/input_bar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cafeowner_cafesize_3" />
+
+    <EditText
+        android:id="@+id/editText_owner_sizeofthecafe"
+        android:layout_width="324dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/input_bar"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="246dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/cafeowner_ownernum_5" />
+
+    <EditText
+        android:id="@+id/editText_owner_phonenum"
+        android:layout_width="324dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/input_bar"
+        android:ems="10"
+        android:inputType="phone"
+        android:selectAllOnFocus="false"
+        android:singleLine="false" />
+
+    <ImageButton
+        android:id="@+id/imgbut_register_cafe"
+        android:layout_width="193dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#00000000"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/imgbut_register_cafe" />
+
+
+</LinearLayout>

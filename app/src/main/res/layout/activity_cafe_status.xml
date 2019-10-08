@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cafe_status"
+    tools:context="com.example.lunashiel.seat_finder.CafeStatusActivity">
+
+    <GridLayout
+        android:layout_width="300dp"
+        android:layout_height="405dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="3"
+        android:rowCount="5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.576"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.642">
+
+        <ImageButton
+            android:id="@+id/table1_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_occupied" />
+
+        <ImageButton
+            android:id="@+id/table2_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_vacant" />
+
+        <ImageButton
+            android:id="@+id/table3_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_vacant" />
+
+        <ImageButton
+            android:id="@+id/table4_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_occupied" />
+
+        <ImageButton
+            android:id="@+id/table5_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_occupied" />
+
+        <ImageButton
+            android:id="@+id/table6_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_occupied" />
+
+        <ImageButton
+            android:id="@+id/table7_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_2_vacant" />
+
+        <ImageButton
+            android:id="@+id/table8_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_2_vacant" />
+
+        <ImageButton
+            android:id="@+id/table9_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="2"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_occupied" />
+
+        <ImageButton
+            android:id="@+id/table10_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="3"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_4_vacant" />
+
+        <ImageButton
+            android:id="@+id/table11_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_2_vacant" />
+
+        <ImageButton
+            android:id="@+id/table12_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:backgroundTint="#00000000"
+            app:srcCompat="@drawable/table_2_occupied" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/StoreName"
+        android:layout_width="311dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="카페명+지점명"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/RemainingNumTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3/12"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.779"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.093" />
+
+</android.support.constraint.ConstraintLayout>
